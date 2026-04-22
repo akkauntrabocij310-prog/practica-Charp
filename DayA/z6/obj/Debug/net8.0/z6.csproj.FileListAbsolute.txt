@@ -1,0 +1,14 @@
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\bin\Debug\net8.0\z6.exe
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\bin\Debug\net8.0\z6.deps.json
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\bin\Debug\net8.0\z6.runtimeconfig.json
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\bin\Debug\net8.0\z6.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\bin\Debug\net8.0\z6.pdb
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.AssemblyInfoInputs.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.AssemblyInfo.cs
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.csproj.CoreCompileInputs.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\refint\z6.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.pdb
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\z6.genruntimeconfig.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\DayA\DayA\z6\obj\Debug\net8.0\ref\z6.dll
