@@ -1,0 +1,14 @@
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\bin\Debug\net8.0\z9.exe
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\bin\Debug\net8.0\z9.deps.json
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\bin\Debug\net8.0\z9.runtimeconfig.json
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\bin\Debug\net8.0\z9.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\bin\Debug\net8.0\z9.pdb
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.AssemblyInfoInputs.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.AssemblyInfo.cs
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.csproj.CoreCompileInputs.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\refint\z9.dll
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.pdb
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\z9.genruntimeconfig.cache
+C:\Users\pauli\OneDrive\Рабочий стол\Практика C#]\Day1\z9\obj\Debug\net8.0\ref\z9.dll

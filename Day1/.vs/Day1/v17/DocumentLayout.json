@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9573878B-B3C5-45CA-9723-28684014DD13}|z5\\z5.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9573878B-B3C5-45CA-9723-28684014DD13}|z5\\z5.csproj|solutionrelative:z5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A79E83F-CEF5-4124-B4ED-AE0B1705551B}|z1\\z1.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A79E83F-CEF5-4124-B4ED-AE0B1705551B}|z1\\z1.csproj|solutionrelative:z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE6092A-FE9A-46A8-BD72-426776C2A838}|z10\\z10.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE6092A-FE9A-46A8-BD72-426776C2A838}|z10\\z10.csproj|solutionrelative:z10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94DF6321-75C3-4038-81E2-90ED6F87CC94}|z9\\z9.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94DF6321-75C3-4038-81E2-90ED6F87CC94}|z9\\z9.csproj|solutionrelative:z9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A25621-7B93-4611-B778-9F13E57E9AB9}|z8\\z8.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A25621-7B93-4611-B778-9F13E57E9AB9}|z8\\z8.csproj|solutionrelative:z8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8F079-9965-40C6-8758-A174F83D288D}|z7\\z7.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8F079-9965-40C6-8758-A174F83D288D}|z7\\z7.csproj|solutionrelative:z7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC17851-5249-4724-878A-3B12C7CB4CA6}|z6\\z6.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC17851-5249-4724-878A-3B12C7CB4CA6}|z6\\z6.csproj|solutionrelative:z6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC951BE-BC18-435F-901B-B1E18948C9AE}|z4\\z4.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC951BE-BC18-435F-901B-B1E18948C9AE}|z4\\z4.csproj|solutionrelative:z4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D57E7E-6345-4658-8C33-3A7E75AFBBED}|z3\\z3.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8D57E7E-6345-4658-8C33-3A7E75AFBBED}|z3\\z3.csproj|solutionrelative:z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF029ECC-3E1B-4FC7-AD00-7A5C73D27F77}|z2\\z2.csproj|c:\\users\\pauli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 c#]\\day1\\z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF029ECC-3E1B-4FC7-AD00-7A5C73D27F77}|z2\\z2.csproj|solutionrelative:z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z10\\Program.cs",
+              "RelativeDocumentMoniker": "z10\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z10\\Program.cs",
+              "RelativeToolTip": "z10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:57:12.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z9\\Program.cs",
+              "RelativeDocumentMoniker": "z9\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z9\\Program.cs",
+              "RelativeToolTip": "z9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:54:46.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z8\\Program.cs",
+              "RelativeDocumentMoniker": "z8\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z8\\Program.cs",
+              "RelativeToolTip": "z8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:48:31.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z7\\Program.cs",
+              "RelativeDocumentMoniker": "z7\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z7\\Program.cs",
+              "RelativeToolTip": "z7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:46:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z6\\Program.cs",
+              "RelativeDocumentMoniker": "z6\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z6\\Program.cs",
+              "RelativeToolTip": "z6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:44:37.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z5\\Program.cs",
+              "RelativeDocumentMoniker": "z5\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z5\\Program.cs",
+              "RelativeToolTip": "z5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:35:13.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z4\\Program.cs",
+              "RelativeDocumentMoniker": "z4\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z4\\Program.cs",
+              "RelativeToolTip": "z4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:19:59.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z3\\Program.cs",
+              "RelativeDocumentMoniker": "z3\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z3\\Program.cs",
+              "RelativeToolTip": "z3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:18:16.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z2\\Program.cs",
+              "RelativeDocumentMoniker": "z2\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z2\\Program.cs",
+              "RelativeToolTip": "z2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:12:25.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z1\\Program.cs",
+              "RelativeDocumentMoniker": "z1\\Program.cs",
+              "ToolTip": "C:\\Users\\pauli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 C#]\\Day1\\z1\\Program.cs",
+              "RelativeToolTip": "z1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:10:46.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
