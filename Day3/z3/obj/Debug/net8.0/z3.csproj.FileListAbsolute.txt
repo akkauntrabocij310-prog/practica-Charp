@@ -1,0 +1,14 @@
+D:\Практика C#]\Day3\z3\bin\Debug\net8.0\z3.exe
+D:\Практика C#]\Day3\z3\bin\Debug\net8.0\z3.deps.json
+D:\Практика C#]\Day3\z3\bin\Debug\net8.0\z3.runtimeconfig.json
+D:\Практика C#]\Day3\z3\bin\Debug\net8.0\z3.dll
+D:\Практика C#]\Day3\z3\bin\Debug\net8.0\z3.pdb
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.AssemblyInfoInputs.cache
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.AssemblyInfo.cs
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.csproj.CoreCompileInputs.cache
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.dll
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\refint\z3.dll
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.pdb
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\z3.genruntimeconfig.cache
+D:\Практика C#]\Day3\z3\obj\Debug\net8.0\ref\z3.dll
