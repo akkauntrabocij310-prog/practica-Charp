@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE90D6E-DBF7-42F3-98E5-1F121A3E607E}|z4\\z4.csproj|d:\\practicc#\\day5\\z4\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE90D6E-DBF7-42F3-98E5-1F121A3E607E}|z4\\z4.csproj|solutionrelative:z4\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE90D6E-DBF7-42F3-98E5-1F121A3E607E}|z4\\z4.csproj|d:\\practicc#\\day5\\z4\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE90D6E-DBF7-42F3-98E5-1F121A3E607E}|z4\\z4.csproj|solutionrelative:z4\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB32645-11AE-4D12-9C64-DFCA656C8AC1}|z3\\z3.csproj|d:\\practicc#\\day5\\z3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB32645-11AE-4D12-9C64-DFCA656C8AC1}|z3\\z3.csproj|solutionrelative:z3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB32645-11AE-4D12-9C64-DFCA656C8AC1}|z3\\z3.csproj|d:\\practicc#\\day5\\z3\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB32645-11AE-4D12-9C64-DFCA656C8AC1}|z3\\z3.csproj|solutionrelative:z3\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA58AB7B-C0A9-4F78-BD10-FC62D5F064E4}|z2\\z2.csproj|d:\\practicc#\\day5\\z2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA58AB7B-C0A9-4F78-BD10-FC62D5F064E4}|z2\\z2.csproj|solutionrelative:z2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA58AB7B-C0A9-4F78-BD10-FC62D5F064E4}|z2\\z2.csproj|d:\\practicc#\\day5\\z2\\universitet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA58AB7B-C0A9-4F78-BD10-FC62D5F064E4}|z2\\z2.csproj|solutionrelative:z2\\universitet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6A6285-4ED7-47D1-B865-C2164101B121}|z1\\z1.csproj|d:\\practicc#\\day5\\z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6A6285-4ED7-47D1-B865-C2164101B121}|z1\\z1.csproj|solutionrelative:z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6A6285-4ED7-47D1-B865-C2164101B121}|z1\\z1.csproj|d:\\practicc#\\day5\\z1\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6A6285-4ED7-47D1-B865-C2164101B121}|z1\\z1.csproj|solutionrelative:z1\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z4\\main.cs",
+              "RelativeDocumentMoniker": "z4\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z4\\main.cs*",
+              "RelativeToolTip": "z4\\main.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:15:05.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "draw.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z4\\draw.cs",
+              "RelativeDocumentMoniker": "z4\\draw.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z4\\draw.cs*",
+              "RelativeToolTip": "z4\\draw.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:14:48.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z3\\main.cs",
+              "RelativeDocumentMoniker": "z3\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z3\\main.cs",
+              "RelativeToolTip": "z3\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:12:13.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "music.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z3\\music.cs",
+              "RelativeDocumentMoniker": "z3\\music.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z3\\music.cs",
+              "RelativeToolTip": "z3\\music.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:09:17.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z2\\main.cs",
+              "RelativeDocumentMoniker": "z2\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z2\\main.cs",
+              "RelativeToolTip": "z2\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:08:12.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Universitet.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z2\\Universitet.cs",
+              "RelativeDocumentMoniker": "z2\\Universitet.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z2\\Universitet.cs",
+              "RelativeToolTip": "z2\\Universitet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:05:05.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z1\\Main.cs",
+              "RelativeDocumentMoniker": "z1\\Main.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z1\\Main.cs",
+              "RelativeToolTip": "z1\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:04:37.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day5\\z1\\Shape.cs",
+              "RelativeDocumentMoniker": "z1\\Shape.cs",
+              "ToolTip": "D:\\PracticC#\\Day5\\z1\\Shape.cs",
+              "RelativeToolTip": "z1\\Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:03:42.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
