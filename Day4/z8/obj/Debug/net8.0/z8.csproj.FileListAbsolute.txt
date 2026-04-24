@@ -1,0 +1,14 @@
+D:\PracticC#\Day4\z8\bin\Debug\net8.0\z8.exe
+D:\PracticC#\Day4\z8\bin\Debug\net8.0\z8.deps.json
+D:\PracticC#\Day4\z8\bin\Debug\net8.0\z8.runtimeconfig.json
+D:\PracticC#\Day4\z8\bin\Debug\net8.0\z8.dll
+D:\PracticC#\Day4\z8\bin\Debug\net8.0\z8.pdb
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.GeneratedMSBuildEditorConfig.editorconfig
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.AssemblyInfoInputs.cache
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.AssemblyInfo.cs
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.csproj.CoreCompileInputs.cache
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.dll
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\refint\z8.dll
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.pdb
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\z8.genruntimeconfig.cache
+D:\PracticC#\Day4\z8\obj\Debug\net8.0\ref\z8.dll

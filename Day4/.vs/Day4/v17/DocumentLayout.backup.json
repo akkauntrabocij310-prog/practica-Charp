@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51FEFD0C-6E5C-450B-9DCF-64140FC275A5}|z8\\z8.csproj|d:\\practicc#\\day4\\z8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51FEFD0C-6E5C-450B-9DCF-64140FC275A5}|z8\\z8.csproj|solutionrelative:z8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D04D153E-59B0-4AF8-92C2-6772725536A9}|z7\\z7.csproj|d:\\practicc#\\day4\\z7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D04D153E-59B0-4AF8-92C2-6772725536A9}|z7\\z7.csproj|solutionrelative:z7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4395BBF4-7AF3-4F75-A5D2-3F3E42F9A051}|z6\\z6.csproj|d:\\practicc#\\day4\\z6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4395BBF4-7AF3-4F75-A5D2-3F3E42F9A051}|z6\\z6.csproj|solutionrelative:z6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB78471A-94B2-4C07-B3CB-348D9C871110}|z5\\z5.csproj|d:\\practicc#\\day4\\z5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB78471A-94B2-4C07-B3CB-348D9C871110}|z5\\z5.csproj|solutionrelative:z5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD2EFE2B-3BF3-461F-8C45-9FCE26747A1E}|z4\\z4.csproj|d:\\practicc#\\day4\\z4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD2EFE2B-3BF3-461F-8C45-9FCE26747A1E}|z4\\z4.csproj|solutionrelative:z4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9586131-26D3-4724-B5A2-12361293D96B}|z3\\z3.csproj|d:\\practicc#\\day4\\z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9586131-26D3-4724-B5A2-12361293D96B}|z3\\z3.csproj|solutionrelative:z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF7B4B4-78E1-492E-A319-94561AE1146F}|z2\\z2.csproj|d:\\practicc#\\day4\\z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF7B4B4-78E1-492E-A319-94561AE1146F}|z2\\z2.csproj|solutionrelative:z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659C1BE5-CC0B-4932-8A5F-E646B559B8EC}|z1\\z1.csproj|d:\\practicc#\\day4\\z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659C1BE5-CC0B-4932-8A5F-E646B559B8EC}|z1\\z1.csproj|solutionrelative:z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z8\\Program.cs",
+              "RelativeDocumentMoniker": "z8\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z8\\Program.cs*",
+              "RelativeToolTip": "z8\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T06:15:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z7\\Program.cs",
+              "RelativeDocumentMoniker": "z7\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z7\\Program.cs",
+              "RelativeToolTip": "z7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:02:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z6\\Program.cs",
+              "RelativeDocumentMoniker": "z6\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z6\\Program.cs",
+              "RelativeToolTip": "z6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:01:56.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z5\\Program.cs",
+              "RelativeDocumentMoniker": "z5\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z5\\Program.cs",
+              "RelativeToolTip": "z5\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:01:38.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z4\\Program.cs",
+              "RelativeDocumentMoniker": "z4\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z4\\Program.cs",
+              "RelativeToolTip": "z4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:01:14.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z3\\Program.cs",
+              "RelativeDocumentMoniker": "z3\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z3\\Program.cs",
+              "RelativeToolTip": "z3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:00:57.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z2\\Program.cs",
+              "RelativeDocumentMoniker": "z2\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z2\\Program.cs",
+              "RelativeToolTip": "z2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:00:17.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day4\\z1\\Program.cs",
+              "RelativeDocumentMoniker": "z1\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day4\\z1\\Program.cs",
+              "RelativeToolTip": "z1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:58:13.191Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
