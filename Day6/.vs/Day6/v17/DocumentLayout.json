@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|d:\\practicc#\\day6\\z4\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|solutionrelative:z4\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|d:\\practicc#\\day6\\z4\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|solutionrelative:z4\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|d:\\practicc#\\day6\\z4\\logik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|solutionrelative:z4\\logik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|d:\\practicc#\\day6\\z4\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|solutionrelative:z4\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|d:\\practicc#\\day6\\z4\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17C70F-F18D-4AEF-8E2E-FACFD4199751}|z4\\z4.csproj|solutionrelative:z4\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|d:\\practicc#\\day6\\z3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|solutionrelative:z3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|d:\\practicc#\\day6\\z3\\cold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|solutionrelative:z3\\cold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|d:\\practicc#\\day6\\z2\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|solutionrelative:z2\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|d:\\practicc#\\day6\\z3\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4A3CB22-D1FC-42C1-B476-406713635D9D}|z3\\z3.csproj|solutionrelative:z3\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|d:\\practicc#\\day6\\z2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|solutionrelative:z2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|d:\\practicc#\\day6\\z2\\array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DED2BA-D593-47EE-9FB6-A4AC6BA1A4AB}|z2\\z2.csproj|solutionrelative:z2\\array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EE87EF-4387-48EF-AE0C-56DB9E2B7406}|z1\\z1.csproj|d:\\practicc#\\day6\\z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EE87EF-4387-48EF-AE0C-56DB9E2B7406}|z1\\z1.csproj|solutionrelative:z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EE87EF-4387-48EF-AE0C-56DB9E2B7406}|z1\\z1.csproj|d:\\practicc#\\day6\\z1\\mesage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EE87EF-4387-48EF-AE0C-56DB9E2B7406}|z1\\z1.csproj|solutionrelative:z1\\mesage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z4\\main.cs",
+              "RelativeDocumentMoniker": "z4\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z4\\main.cs",
+              "RelativeToolTip": "z4\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:27:03.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "logik.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z4\\logik.cs",
+              "RelativeDocumentMoniker": "z4\\logik.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z4\\logik.cs",
+              "RelativeToolTip": "z4\\logik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:26:06.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "investor.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z4\\investor.cs",
+              "RelativeDocumentMoniker": "z4\\investor.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z4\\investor.cs",
+              "RelativeToolTip": "z4\\investor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:24:37.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "market.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z4\\market.cs",
+              "RelativeDocumentMoniker": "z4\\market.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z4\\market.cs",
+              "RelativeToolTip": "z4\\market.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:24:12.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "price.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z4\\price.cs",
+              "RelativeDocumentMoniker": "z4\\price.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z4\\price.cs",
+              "RelativeToolTip": "z4\\price.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:22:45.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z3\\main.cs",
+              "RelativeDocumentMoniker": "z3\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z3\\main.cs",
+              "RelativeToolTip": "z3\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:21:24.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cold.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z3\\cold.cs",
+              "RelativeDocumentMoniker": "z3\\cold.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z3\\cold.cs",
+              "RelativeToolTip": "z3\\cold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:20:47.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "temperatura.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z3\\temperatura.cs",
+              "RelativeDocumentMoniker": "z3\\temperatura.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z3\\temperatura.cs",
+              "RelativeToolTip": "z3\\temperatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:19:11.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z2\\main.cs",
+              "RelativeDocumentMoniker": "z2\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z2\\main.cs",
+              "RelativeToolTip": "z2\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:18:19.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "array.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z2\\array.cs",
+              "RelativeDocumentMoniker": "z2\\array.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z2\\array.cs",
+              "RelativeToolTip": "z2\\array.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:17:50.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "number.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z2\\number.cs",
+              "RelativeDocumentMoniker": "z2\\number.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z2\\number.cs",
+              "RelativeToolTip": "z2\\number.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:16:27.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z1\\main.cs",
+              "RelativeDocumentMoniker": "z1\\main.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z1\\main.cs",
+              "RelativeToolTip": "z1\\main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:15:06.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mesage.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day6\\z1\\mesage.cs",
+              "RelativeDocumentMoniker": "z1\\mesage.cs",
+              "ToolTip": "D:\\PracticC#\\Day6\\z1\\mesage.cs",
+              "RelativeToolTip": "z1\\mesage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:14:02.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
