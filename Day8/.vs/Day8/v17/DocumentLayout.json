@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|d:\\practicc#\\day8\\z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|solutionrelative:z1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC57FAB3-55B3-46EB-BB98-69D00BD1CAF6}|z3\\z3.csproj|d:\\practicc#\\day8\\z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC57FAB3-55B3-46EB-BB98-69D00BD1CAF6}|z3\\z3.csproj|solutionrelative:z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E58137-80F9-4145-A311-5EE5769B9EA0}|z2\\z2.csproj|d:\\practicc#\\day8\\z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E58137-80F9-4145-A311-5EE5769B9EA0}|z2\\z2.csproj|solutionrelative:z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|d:\\practicc#\\day8\\z1\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|solutionrelative:z1\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|d:\\practicc#\\day8\\z1\\cacheitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EA7FC1-7D12-4A99-8569-28D34C608312}|z1\\z1.csproj|solutionrelative:z1\\cacheitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day8\\z3\\Program.cs",
+              "RelativeDocumentMoniker": "z3\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day8\\z3\\Program.cs",
+              "RelativeToolTip": "z3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T06:01:38.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day8\\z2\\Program.cs",
+              "RelativeDocumentMoniker": "z2\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day8\\z2\\Program.cs",
+              "RelativeToolTip": "z2\\Program.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAIwOQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:55:25.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day8\\z1\\Main.cs",
+              "RelativeDocumentMoniker": "z1\\Main.cs",
+              "ToolTip": "D:\\PracticC#\\Day8\\z1\\Main.cs",
+              "RelativeToolTip": "z1\\Main.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:53:39.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cache.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day8\\z1\\Cache.cs",
+              "RelativeDocumentMoniker": "z1\\Cache.cs",
+              "ToolTip": "D:\\PracticC#\\Day8\\z1\\Cache.cs",
+              "RelativeToolTip": "z1\\Cache.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAiwAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:49:47.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacheItem.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day8\\z1\\CacheItem.cs",
+              "RelativeDocumentMoniker": "z1\\CacheItem.cs",
+              "ToolTip": "D:\\PracticC#\\Day8\\z1\\CacheItem.cs",
+              "RelativeToolTip": "z1\\CacheItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:48:41.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
