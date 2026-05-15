@@ -1,0 +1,427 @@
+<Window x:Class="StudentDiaryFull.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:conv="clr-namespace:StudentDiaryFull.Converters"
+        Title="Электронный дневник студента"
+        Height="720" Width="1100"
+        MinHeight="600" MinWidth="900"
+        WindowStartupLocation="CenterScreen"
+        Background="#F0F4F8">
+    <Window.Resources>
+        <conv:GradeValueToColorConverter    x:Key="GradeColor"/>
+        <conv:BoolToVisibilityConverter     x:Key="BoolToVis"/>
+        <conv:NullToVisibilityConverter     x:Key="NullToVis"/>
+        <conv:BoolToStrikethroughConverter  x:Key="Strikethrough"/>
+        <conv:BoolToCompletedColorConverter x:Key="CompletedColor"/>
+
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background"   Value="White"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding"      Value="14"/>
+            <Setter Property="Effect">
+                <Setter.Value><DropShadowEffect Color="#C0C0C0" BlurRadius="10" ShadowDepth="2" Opacity="0.2"/></Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PrimaryBtn" TargetType="Button">
+            <Setter Property="Background" Value="#3498DB"/><Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/><Setter Property="Padding" Value="12,6"/>
+            <Setter Property="BorderThickness" Value="0"/><Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Bd" Property="Background" Value="#2980B9"/></Trigger>
+                            <Trigger Property="IsEnabled" Value="False"><Setter TargetName="Bd" Property="Background" Value="#BDC3C7"/></Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DangerBtn" TargetType="Button" BasedOn="{StaticResource PrimaryBtn}">
+            <Setter Property="Background" Value="#E74C3C"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True"><Setter Property="Background" Value="#C0392B"/></Trigger>
+                <Trigger Property="IsEnabled" Value="False"><Setter Property="Background" Value="#BDC3C7"/></Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="GreenBtn" TargetType="Button" BasedOn="{StaticResource PrimaryBtn}">
+            <Setter Property="Background" Value="#27AE60"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True"><Setter Property="Background" Value="#1E8449"/></Trigger>
+                <Trigger Property="IsEnabled" Value="False"><Setter Property="Background" Value="#BDC3C7"/></Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="LI" TargetType="ListBoxItem">
+            <Setter Property="Padding" Value="8,6"/><Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="Bd" CornerRadius="6" Margin="0,2" Background="Transparent" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Bd" Property="Background" Value="#EBF5FB"/></Trigger>
+                            <Trigger Property="IsSelected"  Value="True"><Setter TargetName="Bd" Property="Background" Value="#D6EAF8"/></Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="IB" TargetType="TextBox">
+            <Setter Property="Padding" Value="8,6"/><Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/><Setter Property="FontSize" Value="13"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="White" CornerRadius="6" BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"><Setter Property="BorderBrush" Value="#3498DB"/></Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="STitle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="13"/><Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#2C3E50"/><Setter Property="Margin" Value="0,0,0,8"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- ШАПКА -->
+        <Border Grid.Row="0" Style="{StaticResource Card}" Margin="0,0,0,10">
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock Text="Электронный дневник студента" FontSize="19" FontWeight="Bold" Foreground="#2C3E50"/>
+                    <TextBlock FontSize="11" Foreground="#7F8C8D" Margin="0,2,0,0">
+                        <Run Text="Вошли как:"/><Run Text="{Binding CurrentUserName}" FontWeight="SemiBold"/>
+                    </TextBlock>
+                </StackPanel>
+                <Border Grid.Column="1" Background="#FEF9E7" CornerRadius="8" Padding="12,6"
+                        Visibility="{Binding Notification, Converter={StaticResource NullToVis}}">
+                    <TextBlock Text="{Binding Notification}" FontSize="11" Foreground="#D68910"
+                               MaxWidth="280" TextWrapping="Wrap"/>
+                </Border>
+            </Grid>
+        </Border>
+
+        <!-- ВКЛАДКИ -->
+        <TabControl Grid.Row="1" Background="Transparent" BorderThickness="0">
+
+            <!-- Оценки -->
+            <TabItem Header="Оценки">
+                <Grid Margin="0,8,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/><ColumnDefinition Width="10"/><ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Style="{StaticResource Card}">
+                        <Grid>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Студенты" Style="{StaticResource STitle}"/>
+                            <ListBox Grid.Row="1" ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudent}"
+                                     ItemContainerStyle="{StaticResource LI}" BorderThickness="0" Background="Transparent"
+                                     IsEnabled="{Binding IsTeacher}">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Border Width="30" Height="30" CornerRadius="15" Background="#3498DB" Margin="0,0,8,0">
+                                                <TextBlock Text="{Binding LastName[0]}" Foreground="White" FontWeight="Bold"
+                                                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                            <StackPanel VerticalAlignment="Center">
+                                                <TextBlock Text="{Binding FullName}" FontWeight="SemiBold" FontSize="12" Foreground="#2C3E50"/>
+                                                <TextBlock Text="{Binding Group}" Foreground="#7F8C8D" FontSize="10"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+                    </Border>
+
+                    <Grid Grid.Column="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Border Grid.Row="0" Style="{StaticResource Card}" Margin="0,0,0,8"
+                                Visibility="{Binding SelectedStudent, Converter={StaticResource NullToVis}}">
+                            <Grid>
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding SelectedStudent.FullName}" FontSize="15" FontWeight="Bold" Foreground="#2C3E50"/>
+                                    <TextBlock FontSize="11" Foreground="#7F8C8D">
+                                        <Run Text="Группа: "/><Run Text="{Binding SelectedStudent.Group}"/>
+                                    </TextBlock>
+                                </StackPanel>
+                                <Border Grid.Column="1" CornerRadius="8" Padding="14,6" Background="#EBF5FB">
+                                    <StackPanel>
+                                        <TextBlock Text="Средний балл" FontSize="9" Foreground="#7F8C8D" HorizontalAlignment="Center"/>
+                                        <TextBlock Text="{Binding AverageGrade, StringFormat=F1}" FontSize="24" FontWeight="Bold"
+                                                   Foreground="#3498DB" HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </Border>
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="0" Style="{StaticResource Card}" Margin="0,0,0,8"
+                                Visibility="{Binding SelectedStudent, Converter={StaticResource NullToVis}, ConverterParameter=Invert}">
+                            <TextBlock Text="Выберите студента из списка" Foreground="#7F8C8D" FontSize="12" HorizontalAlignment="Center"/>
+                        </Border>
+
+                        <Border Grid.Row="1" Style="{StaticResource Card}" Margin="0,0,0,8">
+                            <Grid>
+                                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Margin="0,0,0,8">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                    <TextBlock Text="Журнал оценок" Style="{StaticResource STitle}" Margin="0" VerticalAlignment="Center"/>
+                                    <Button Grid.Column="1" Content="Удалить" Style="{StaticResource DangerBtn}"
+                                            Command="{Binding RemoveGradeCommand}" FontSize="11" Padding="8,4"
+                                            Visibility="{Binding IsTeacher, Converter={StaticResource BoolToVis}}"/>
+                                </Grid>
+                                <ListBox Grid.Row="1" ItemsSource="{Binding Grades}" SelectedItem="{Binding SelectedGrade}"
+                                         ItemContainerStyle="{StaticResource LI}" BorderThickness="0" Background="Transparent">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Border Width="34" Height="34" CornerRadius="8"
+                                                        Background="{Binding Value, Converter={StaticResource GradeColor}}" Margin="0,0,10,0">
+                                                    <TextBlock Text="{Binding Value}" Foreground="White" FontSize="15" FontWeight="Bold"
+                                                               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
+                                                <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                                    <TextBlock Text="{Binding Subject}" FontWeight="SemiBold" FontSize="12" Foreground="#2C3E50"/>
+                                                    <TextBlock Text="{Binding Comment}" FontSize="10" Foreground="#7F8C8D" TextTrimming="CharacterEllipsis"/>
+                                                </StackPanel>
+                                                <TextBlock Grid.Column="2" Text="{Binding Date, StringFormat=dd.MM.yyyy}"
+                                                           Foreground="#95A5A6" FontSize="10" VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                </ListBox>
+                            </Grid>
+                        </Border>
+
+                        <Border Grid.Row="2" Style="{StaticResource Card}"
+                                Visibility="{Binding IsTeacher, Converter={StaticResource BoolToVis}}">
+                            <StackPanel>
+                                <TextBlock Text="Выставить оценку" Style="{StaticResource STitle}"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/><ColumnDefinition Width="8"/>
+                                        <ColumnDefinition Width="80"/><ColumnDefinition Width="8"/>
+                                        <ColumnDefinition Width="*"/><ColumnDefinition Width="8"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel>
+                                        <TextBlock Text="Предмет" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                        <TextBox Style="{StaticResource IB}" Text="{Binding NewSubject, UpdateSourceTrigger=PropertyChanged}"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="2">
+                                        <TextBlock Text="Оценка" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                        <ComboBox ItemsSource="{Binding AvailableGrades}" SelectedItem="{Binding NewGradeValue}" Padding="6,5" FontSize="12"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="4">
+                                        <TextBlock Text="Комментарий" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                        <TextBox Style="{StaticResource IB}" Text="{Binding NewComment, UpdateSourceTrigger=PropertyChanged}"/>
+                                    </StackPanel>
+                                    <Button Grid.Column="6" Content="Добавить" Style="{StaticResource PrimaryBtn}"
+                                            Command="{Binding AddGradeCommand}" VerticalAlignment="Bottom"/>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- Домашние задания -->
+            <TabItem Header="Домашние задания">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                    <Border Grid.Row="0" Style="{StaticResource Card}" Margin="0,0,0,8">
+                        <Grid>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                            <Grid Grid.Row="0" Margin="0,0,0,8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Список заданий" Style="{StaticResource STitle}" Margin="0" VerticalAlignment="Center"/>
+                                <Button Grid.Column="1" Content="Статус" Style="{StaticResource GreenBtn}"
+                                        Command="{Binding ToggleHwCommand}" FontSize="11" Padding="8,4"/>
+                                <Button Grid.Column="3" Content="Удалить" Style="{StaticResource DangerBtn}"
+                                        Command="{Binding RemoveHwCommand}" FontSize="11" Padding="8,4"
+                                        Visibility="{Binding IsTeacher, Converter={StaticResource BoolToVis}}"/>
+                            </Grid>
+                            <ListBox Grid.Row="1" ItemsSource="{Binding Homework}" SelectedItem="{Binding SelectedHomework}"
+                                     ItemContainerStyle="{StaticResource LI}" BorderThickness="0" Background="Transparent">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Ellipse Width="9" Height="9" Margin="0,0,10,0" VerticalAlignment="Center"
+                                                     Fill="{Binding IsCompleted, Converter={StaticResource CompletedColor}}"/>
+                                            <StackPanel Grid.Column="1">
+                                                <TextBlock FontWeight="SemiBold" FontSize="12"
+                                                           Foreground="{Binding IsCompleted, Converter={StaticResource CompletedColor}}"
+                                                           TextDecorations="{Binding IsCompleted, Converter={StaticResource Strikethrough}}">
+                                                    <Run Text="{Binding Subject}"/><Run Text=" — " Foreground="#BDC3C7"/>
+                                                    <Run Text="{Binding Group}" Foreground="#3498DB"/>
+                                                </TextBlock>
+                                                <TextBlock Text="{Binding Description}" FontSize="10" Foreground="#7F8C8D" TextTrimming="CharacterEllipsis"/>
+                                            </StackPanel>
+                                            <TextBlock Grid.Column="2" Text="{Binding DueDateDisplay}"
+                                                       Foreground="#95A5A6" FontSize="10" VerticalAlignment="Center"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+                    </Border>
+                    <Border Grid.Row="1" Style="{StaticResource Card}"
+                            Visibility="{Binding IsTeacher, Converter={StaticResource BoolToVis}}">
+                        <StackPanel>
+                            <TextBlock Text="Добавить задание" Style="{StaticResource STitle}"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/><ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="100"/><ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="*"/><ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="120"/><ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <TextBlock Text="Предмет" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                    <TextBox Style="{StaticResource IB}" Text="{Binding HwSubject, UpdateSourceTrigger=PropertyChanged}"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Группа" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                    <ComboBox ItemsSource="{Binding Groups}" SelectedItem="{Binding HwGroup}" Padding="6,5" FontSize="12"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="4">
+                                    <TextBlock Text="Описание" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                    <TextBox Style="{StaticResource IB}" Text="{Binding HwDescription, UpdateSourceTrigger=PropertyChanged}"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="6">
+                                    <TextBlock Text="Срок" FontSize="10" Foreground="#7F8C8D" Margin="0,0,0,3"/>
+                                    <DatePicker SelectedDate="{Binding HwDueDate}" FontSize="12"/>
+                                </StackPanel>
+                                <Button Grid.Column="8" Content="Добавить" Style="{StaticResource PrimaryBtn}"
+                                        Command="{Binding AddHomeworkCommand}" VerticalAlignment="Bottom"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <!-- Расписание -->
+            <TabItem Header="Расписание">
+                <Grid Margin="0,8,0,0">
+                    <Border Style="{StaticResource Card}">
+                        <Grid>
+                            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                            <Grid Grid.Row="0" Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="8"/><ColumnDefinition Width="150"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Расписание занятий" Style="{StaticResource STitle}" Margin="0" VerticalAlignment="Center"/>
+                                <TextBlock Grid.Column="1" Text="Группа:" FontSize="12" VerticalAlignment="Center" Foreground="#7F8C8D"/>
+                                <ComboBox Grid.Column="3" ItemsSource="{Binding Groups}" SelectedItem="{Binding FilterGroup}" Padding="6,5" FontSize="12"/>
+                            </Grid>
+                            <ListView Grid.Row="1" ItemsSource="{Binding Schedule}" BorderThickness="0" Background="Transparent">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="День"         Width="110" DisplayMemberBinding="{Binding DayName}"/>
+                                        <GridViewColumn Header="Начало"       Width="80"  DisplayMemberBinding="{Binding TimeStart}"/>
+                                        <GridViewColumn Header="Конец"        Width="80"  DisplayMemberBinding="{Binding TimeEnd}"/>
+                                        <GridViewColumn Header="Предмет"      Width="170" DisplayMemberBinding="{Binding Subject}"/>
+                                        <GridViewColumn Header="Преподаватель" Width="160" DisplayMemberBinding="{Binding Teacher}"/>
+                                        <GridViewColumn Header="Ауд."         Width="80"  DisplayMemberBinding="{Binding Room}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <!-- Чат -->
+            <TabItem Header="Чат">
+                <Grid Margin="0,8,0,0">
+                    <Border Style="{StaticResource Card}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Чат (Named Pipes)" Style="{StaticResource STitle}"/>
+                            <ListBox Grid.Row="1" ItemsSource="{Binding ChatMessages}" BorderThickness="0" Background="#FAFAFA"
+                                     Padding="8" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="Padding" Value="4,2"/>
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="BorderThickness" Value="0"/>
+                                        <Setter Property="IsHitTestVisible" Value="False"/>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Display}" FontSize="12" Foreground="#2C3E50" TextWrapping="Wrap"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <Grid Grid.Row="2" Margin="0,8,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/><ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Grid.Column="0" Style="{StaticResource IB}"
+                                         Text="{Binding ChatInput, UpdateSourceTrigger=PropertyChanged}"/>
+                                <Button Grid.Column="2" Content="Отправить" Style="{StaticResource PrimaryBtn}"
+                                        Command="{Binding SendChatCommand}"/>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <!-- СТАТУС-БАР -->
+        <Border Grid.Row="2" Background="#2C3E50" CornerRadius="6" Margin="0,10,0,0" Padding="10,5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Ellipse Width="8" Height="8" Fill="#2ECC71" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Text="{Binding StatusMessage}" Foreground="#ECF0F1" FontSize="11" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="2" Foreground="#95A5A6" FontSize="10" VerticalAlignment="Center">
+                    <Run Text="Студентов: "/><Run Text="{Binding Students.Count}"/>
+                </TextBlock>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
