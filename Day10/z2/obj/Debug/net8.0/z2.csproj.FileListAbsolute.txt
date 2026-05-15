@@ -1,0 +1,4 @@
+D:\PracticC#\Day10\z2\obj\Debug\net8.0\z2.GeneratedMSBuildEditorConfig.editorconfig
+D:\PracticC#\Day10\z2\obj\Debug\net8.0\z2.AssemblyInfoInputs.cache
+D:\PracticC#\Day10\z2\obj\Debug\net8.0\z2.AssemblyInfo.cs
+D:\PracticC#\Day10\z2\obj\Debug\net8.0\z2.csproj.CoreCompileInputs.cache

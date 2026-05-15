@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\z3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\z3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\chatobserver.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\chatobserver.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|d:\\practicc#\\day10\\z3\\ichatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A45A515-1F0A-4684-A2E4-AD846FC8898D}|z3\\z3.csproj|solutionrelative:z3\\ichatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|d:\\practicc#\\day10\\z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|solutionrelative:z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|d:\\practicc#\\day10\\z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|solutionrelative:z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|d:\\practicc#\\day10\\z2\\bitcoinpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|solutionrelative:z2\\bitcoinpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|d:\\practicc#\\day10\\z2\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|solutionrelative:z2\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|d:\\practicc#\\day10\\z2\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|solutionrelative:z2\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|d:\\practicc#\\day10\\z2\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846E7D2A-0929-4D55-9591-96D070F3DFFF}|z2\\z2.csproj|solutionrelative:z2\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|d:\\practicc#\\day10\\z1\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|solutionrelative:z1\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|d:\\practicc#\\day10\\z1\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961BAF88-2875-42BC-AB30-173A8CD091BB}|z1\\z1.csproj|solutionrelative:z1\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "z3",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\z3.csproj",
+              "RelativeDocumentMoniker": "z3\\z3.csproj",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\z3.csproj",
+              "RelativeToolTip": "z3\\z3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:13:21.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatObserver.csproj",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\ChatObserver.csproj",
+              "RelativeDocumentMoniker": "z3\\ChatObserver.csproj",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\ChatObserver.csproj",
+              "RelativeToolTip": "z3\\ChatObserver.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:15:06.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\Program.cs",
+              "RelativeDocumentMoniker": "z3\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\Program.cs",
+              "RelativeToolTip": "z3\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:14:34.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\User.cs",
+              "RelativeDocumentMoniker": "z3\\User.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\User.cs",
+              "RelativeToolTip": "z3\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:14:11.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatRoom.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\ChatRoom.cs",
+              "RelativeDocumentMoniker": "z3\\ChatRoom.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\ChatRoom.cs",
+              "RelativeToolTip": "z3\\ChatRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:13:26.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IChatUser.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z3\\IChatUser.cs",
+              "RelativeDocumentMoniker": "z3\\IChatUser.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z3\\IChatUser.cs",
+              "RelativeToolTip": "z3\\IChatUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:12:25.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z2\\Program.cs",
+              "RelativeDocumentMoniker": "z2\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z2\\Program.cs",
+              "RelativeToolTip": "z2\\Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAUwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:57:01.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BitcoinPayment.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z2\\BitcoinPayment.cs",
+              "RelativeDocumentMoniker": "z2\\BitcoinPayment.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z2\\BitcoinPayment.cs",
+              "RelativeToolTip": "z2\\BitcoinPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:56:21.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PayPalPayment.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z2\\PayPalPayment.cs",
+              "RelativeDocumentMoniker": "z2\\PayPalPayment.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z2\\PayPalPayment.cs",
+              "RelativeToolTip": "z2\\PayPalPayment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:55:39.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreditCardPayment.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z2\\CreditCardPayment.cs",
+              "RelativeDocumentMoniker": "z2\\CreditCardPayment.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z2\\CreditCardPayment.cs",
+              "RelativeToolTip": "z2\\CreditCardPayment.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:55:13.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentStrategy.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z2\\IPaymentStrategy.cs",
+              "RelativeDocumentMoniker": "z2\\IPaymentStrategy.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z2\\IPaymentStrategy.cs",
+              "RelativeToolTip": "z2\\IPaymentStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:52:28.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z1\\Program.cs",
+              "RelativeDocumentMoniker": "z1\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z1\\Program.cs",
+              "RelativeToolTip": "z1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:51:27.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CacheManager.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z1\\CacheManager.cs",
+              "RelativeDocumentMoniker": "z1\\CacheManager.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z1\\CacheManager.cs",
+              "RelativeToolTip": "z1\\CacheManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:50:34.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day10\\z1\\Logger.cs",
+              "RelativeDocumentMoniker": "z1\\Logger.cs",
+              "ToolTip": "D:\\PracticC#\\Day10\\z1\\Logger.cs",
+              "RelativeToolTip": "z1\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T10:49:56.617Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
