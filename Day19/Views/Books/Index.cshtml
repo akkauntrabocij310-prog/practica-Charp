@@ -1,0 +1,66 @@
+@model IReadOnlyList<Book>
+@{
+    ViewData["Title"] = "Каталог книг";
+}
+
+<div class="page-hero">
+    <div class="page-hero__text">
+        <h1 class="page-hero__title">Каталог книг</h1>
+        <p class="page-hero__sub">@Model.Count @GetBooksWord(Model.Count) в библиотеке</p>
+    </div>
+    <a href="/Books/Create" class="btn btn--primary">+ Добавить книгу</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="empty-state">
+        <div class="empty-state__icon">📖</div>
+        <h2 class="empty-state__title">Библиотека пуста</h2>
+        <p class="empty-state__text">Добавьте первую книгу, чтобы начать</p>
+        <a href="/Books/Create" class="btn btn--primary">Добавить книгу</a>
+    </div>
+}
+else
+{
+    <div class="books-grid">
+        @foreach (var book in Model)
+        {
+            <article class="book-card">
+                <div class="book-card__spine"></div>
+                <div class="book-card__body">
+                    <div class="book-card__meta">
+                        <span class="book-card__year">@book.Year</span>
+                        @if (!string.IsNullOrWhiteSpace(book.Genre))
+                        {
+                            <span class="book-card__genre">@book.Genre</span>
+                        }
+                    </div>
+                    <h2 class="book-card__title">@book.Title</h2>
+                    <p class="book-card__author">@book.Author</p>
+                    @if (!string.IsNullOrWhiteSpace(book.Description))
+                    {
+                        <p class="book-card__desc">
+                            @(book.Description!.Length > 90
+                                ? book.Description[..90] + "…"
+                                : book.Description)
+                        </p>
+                    }
+                    <div class="book-card__actions">
+                        <a href="/Books/Details/@book.Id" class="btn btn--ghost btn--sm">Подробнее →</a>
+                    </div>
+                </div>
+            </article>
+        }
+    </div>
+}
+
+@functions {
+    static string GetBooksWord(int n)
+    {
+        int mod10 = n % 10, mod100 = n % 100;
+        if (mod100 >= 11 && mod100 <= 19) return "книг";
+        if (mod10 == 1) return "книга";
+        if (mod10 >= 2 && mod10 <= 4) return "книги";
+        return "книг";
+    }
+}

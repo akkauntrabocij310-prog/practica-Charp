@@ -1,0 +1,77 @@
+@model Book
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="breadcrumb">
+    <a href="/Books" class="breadcrumb__link">← Все книги</a>
+    <span class="breadcrumb__sep">/</span>
+    <span class="breadcrumb__current">@Model.Title</span>
+</div>
+
+<div class="details-layout">
+
+    <!-- Книжная обложка (декоративная) -->
+    <aside class="book-cover">
+        <div class="book-cover__3d">
+            <div class="book-cover__front">
+                <div class="book-cover__title">@Model.Title</div>
+                <div class="book-cover__author">@Model.Author</div>
+                <div class="book-cover__year">@Model.Year</div>
+            </div>
+            <div class="book-cover__side"></div>
+        </div>
+    </aside>
+
+    <!-- Детали книги -->
+    <section class="book-details">
+
+        @if (!string.IsNullOrWhiteSpace(Model.Genre))
+        {
+            <span class="genre-badge">@Model.Genre</span>
+        }
+
+        <h1 class="details__title">@Model.Title</h1>
+        <p class="details__author">@Model.Author</p>
+
+        <dl class="details__info">
+            <div class="details__info-row">
+                <dt class="details__label">Год издания</dt>
+                <dd class="details__value">@Model.Year</dd>
+            </div>
+            <div class="details__info-row">
+                <dt class="details__label">Автор</dt>
+                <dd class="details__value">@Model.Author</dd>
+            </div>
+            @if (!string.IsNullOrWhiteSpace(Model.Genre))
+            {
+                <div class="details__info-row">
+                    <dt class="details__label">Жанр</dt>
+                    <dd class="details__value">@Model.Genre</dd>
+                </div>
+            }
+            <div class="details__info-row">
+                <dt class="details__label">ID в каталоге</dt>
+                <dd class="details__value">#@Model.Id</dd>
+            </div>
+        </dl>
+
+        @if (!string.IsNullOrWhiteSpace(Model.Description))
+        {
+            <div class="details__description">
+                <h3 class="details__desc-title">Описание</h3>
+                <p>@Model.Description</p>
+            </div>
+        }
+
+        <div class="details__actions">
+            <a href="/Books" class="btn btn--ghost">← К списку</a>
+            <form asp-action="Delete" asp-route-id="@Model.Id" method="post"
+                  style="display:inline"
+                  onsubmit="return confirm('Удалить книгу «@Html.Raw(Model.Title.Replace("'","\'"))»?')">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn--danger">Удалить</button>
+            </form>
+        </div>
+    </section>
+</div>

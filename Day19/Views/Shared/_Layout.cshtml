@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] — Библиотека книг</title>
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="/Books" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Библиотека</span>
+        </a>
+        <nav class="main-nav">
+            <a href="/Books" class="nav-link">Все книги</a>
+            <a href="/Books/Create" class="nav-link nav-link--accent">+ Добавить книгу</a>
+        </nav>
+    </div>
+</header>
+
+<main class="site-main">
+    <div class="container">
+
+        @* Флеш-сообщения (TempData) *@
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert--success">
+                <span class="alert__icon">✓</span>
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @RenderBody()
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© @DateTime.Now.Year Библиотека книг · ASP.NET Core MVC</p>
+    </div>
+</footer>
+
+<script src="~/js/site.js"></script>
+</body>
+</html>

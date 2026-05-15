@@ -1,0 +1,113 @@
+@model Book
+@{
+    ViewData["Title"] = "Добавить книгу";
+}
+
+<div class="breadcrumb">
+    <a href="/Books" class="breadcrumb__link">← Все книги</a>
+    <span class="breadcrumb__sep">/</span>
+    <span class="breadcrumb__current">Добавить книгу</span>
+</div>
+
+<div class="form-page">
+    <div class="form-page__header">
+        <h1 class="form-page__title">Добавить книгу</h1>
+        <p class="form-page__sub">Заполните поля ниже, чтобы добавить книгу в каталог</p>
+    </div>
+
+    <!--
+        asp-action="Create" — POST /Books/Create
+        asp-antiforgery="true" — CSRF-токен (аналог @Html.AntiForgeryToken())
+        Атрибут novalidate отключает браузерную валидацию — используем серверную + data-аннотации
+    -->
+    <form asp-action="Create" method="post" class="book-form" novalidate>
+        @Html.AntiForgeryToken()
+
+        <div class="form-section">
+            <h2 class="form-section__title">Основная информация</h2>
+
+            <!-- Title -->
+            <div class="form-group">
+                <label asp-for="Title" class="form-label">
+                    Название книги <span class="required">*</span>
+                </label>
+                <input asp-for="Title"
+                       class="form-input"
+                       placeholder="Например: Мастер и Маргарита"
+                       autocomplete="off"/>
+                <span asp-validation-for="Title" class="form-error"></span>
+            </div>
+
+            <!-- Author -->
+            <div class="form-group">
+                <label asp-for="Author" class="form-label">
+                    Автор <span class="required">*</span>
+                </label>
+                <input asp-for="Author"
+                       class="form-input"
+                       placeholder="Имя и фамилия автора"
+                       autocomplete="off"/>
+                <span asp-validation-for="Author" class="form-error"></span>
+            </div>
+
+            <!-- Year + Genre -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Year" class="form-label">
+                        Год издания <span class="required">*</span>
+                    </label>
+                    <input asp-for="Year"
+                           type="number"
+                           class="form-input"
+                           min="1450" max="2100"
+                           placeholder="@DateTime.Now.Year"/>
+                    <span asp-validation-for="Year" class="form-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Genre" class="form-label">Жанр</label>
+                    <input asp-for="Genre"
+                           class="form-input"
+                           list="genres-list"
+                           placeholder="Роман, Фэнтези…"/>
+                    <!-- datalist для удобного ввода жанра -->
+                    <datalist id="genres-list">
+                        <option value="Роман"/>
+                        <option value="Повесть"/>
+                        <option value="Рассказ"/>
+                        <option value="Фэнтези"/>
+                        <option value="Антиутопия"/>
+                        <option value="Детектив"/>
+                        <option value="Научная фантастика"/>
+                        <option value="Биография"/>
+                        <option value="История"/>
+                        <option value="Психологический роман"/>
+                        <option value="Магический реализм"/>
+                        <option value="Эпопея"/>
+                    </datalist>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2 class="form-section__title">Дополнительно</h2>
+
+            <!-- Description -->
+            <div class="form-group">
+                <label asp-for="Description" class="form-label">Описание</label>
+                <textarea asp-for="Description"
+                          class="form-input form-textarea"
+                          rows="4"
+                          placeholder="Краткое описание книги (необязательно)…"
+                          maxlength="1000"></textarea>
+                <span asp-validation-for="Description" class="form-error"></span>
+                <span class="form-hint">Не более 1000 символов</span>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <a href="/Books" class="btn btn--ghost">Отмена</a>
+            <button type="submit" class="btn btn--primary">Добавить книгу</button>
+        </div>
+    </form>
+</div>
