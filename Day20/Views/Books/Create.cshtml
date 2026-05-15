@@ -1,0 +1,62 @@
+@model BookLibrary.ViewModels.BookViewModel
+@{
+    ViewData["Title"] = "Добавить книгу";
+}
+
+<div class="form-page">
+    <h1>➕ Добавить книгу</h1>
+
+    <div class="form-card">
+        <form asp-action="Create" method="post" novalidate>
+            @* Anti-forgery token (защита от CSRF) *@
+            @Html.AntiForgeryToken()
+
+            @* Сводка ошибок валидации *@
+            <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control" placeholder="Введите название книги" />
+                <span asp-validation-for="Title" class="field-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Author"></label>
+                <input asp-for="Author" class="form-control" placeholder="Имя и фамилия автора" />
+                <span asp-validation-for="Author" class="field-error"></span>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Year"></label>
+                    <input asp-for="Year" type="number" class="form-control"
+                           min="1000" max="2100" placeholder="@DateTime.Now.Year" />
+                    <span asp-validation-for="Year" class="field-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Genre"></label>
+                    <input asp-for="Genre" class="form-control" placeholder="Роман, Фантастика..." />
+                    <span asp-validation-for="Genre" class="field-error"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ISBN"></label>
+                <input asp-for="ISBN" class="form-control" placeholder="978-5-17-083086-4" />
+                <small class="form-hint">Формат: 978-X-XX-XXXXXX-X</small>
+                <span asp-validation-for="ISBN" class="field-error"></span>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">💾 Сохранить</button>
+                <a asp-action="Index" class="btn btn-outline">Отмена</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @* Подключение клиентской валидации jQuery *@
+    <partial name="_ValidationScriptsPartial" />
+}

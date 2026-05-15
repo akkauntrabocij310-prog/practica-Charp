@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — Библиотека книг</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <a class="logo" asp-controller="Books" asp-action="Index">📚 BookLibrary</a>
+        <nav>
+            <a asp-controller="Books" asp-action="Index">Все книги</a>
+            <a asp-controller="Books" asp-action="Create" class="btn-nav">+ Добавить</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    @* TempData: вывод уведомления об успехе *@
+    @if (TempData["SuccessMessage"] is string msg)
+    {
+        <div class="alert alert-success">✅ @msg</div>
+    }
+
+    @RenderBody()
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>BookLibrary &copy; @DateTime.Now.Year · ASP.NET Core @System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription</p>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

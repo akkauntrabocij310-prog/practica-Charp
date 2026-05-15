@@ -1,0 +1,35 @@
+@model BookLibrary.Models.Book
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="detail-page">
+    <a asp-action="Index" class="back-link">← Назад к списку</a>
+
+    <div class="detail-card">
+        <span class="genre-badge">@Model.Genre</span>
+        <h1>@Model.Title</h1>
+
+        <dl class="detail-list">
+            <dt>Автор</dt>
+            <dd>@Model.Author</dd>
+
+            <dt>Год издания</dt>
+            <dd>@Model.Year</dd>
+
+            <dt>ISBN</dt>
+            <dd><code>@Model.ISBN</code></dd>
+
+            <dt>Жанр</dt>
+            <dd>@Model.Genre</dd>
+
+            <dt>ID записи</dt>
+            <dd>#@Model.Id</dd>
+        </dl>
+
+        <div class="detail-actions">
+            <a asp-action="Index" class="btn btn-outline">← К списку</a>
+            <a asp-action="Create" class="btn btn-primary">+ Добавить книгу</a>
+        </div>
+    </div>
+</div>
