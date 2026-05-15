@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\studentdiarywpf.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\studentdiarywpf.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\models\\gradeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\models\\gradeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|d:\\practicc#\\day12\\z1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B8D1D3-0B8B-477A-9593-60364DBFA1A6}|z1\\z1.csproj|solutionrelative:z1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GradeEntry.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\Models\\GradeEntry.cs",
+              "RelativeDocumentMoniker": "z1\\Models\\GradeEntry.cs",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\Models\\GradeEntry.cs",
+              "RelativeToolTip": "z1\\Models\\GradeEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:38:02.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\App.xaml",
+              "RelativeDocumentMoniker": "z1\\App.xaml",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\App.xaml",
+              "RelativeToolTip": "z1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-14T15:37:00.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "z1\\App.xaml.cs",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\App.xaml.cs",
+              "RelativeToolTip": "z1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:36:40.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDiaryWPF.csproj",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\StudentDiaryWPF.csproj",
+              "RelativeDocumentMoniker": "z1\\StudentDiaryWPF.csproj",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\StudentDiaryWPF.csproj",
+              "RelativeToolTip": "z1\\StudentDiaryWPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T15:36:24.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "z1\\MainWindow.xaml",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\MainWindow.xaml",
+              "RelativeToolTip": "z1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-14T15:33:32.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day12\\z1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "z1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PracticC#\\Day12\\z1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "z1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAUwCkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:33:31.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
