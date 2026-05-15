@@ -1,0 +1,52 @@
+<Window x:Class="ElectronicDiary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Электронный дневник" Height="600" Width="1000">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл"/>
+            <MenuItem Header="Расписание"/>
+            <MenuItem Header="Оценки"/>
+        </Menu>
+
+        <TabControl>
+            <TabItem Header="Оценки">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                        <Button Content="Добавить оценку"
+                                Command="{Binding AddGradeCommand}"
+                                Margin="0 0 10 0"/>
+                        <Button Content="Редактировать оценку"
+                                Command="{Binding EditGradeCommand}"
+                                Margin="0 0 10 0"/>
+                        <Button Content="Удалить оценку"
+                                Command="{Binding DeleteGradeCommand}"/>
+                    </StackPanel>
+
+                    <DataGrid Grid.Row="1"
+                              ItemsSource="{Binding Grades}"
+                              SelectedItem="{Binding SelectedGrade}"
+                              AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Студент" Binding="{Binding StudentName, Mode=TwoWay}" />
+                            <DataGridTextColumn Header="Предмет" Binding="{Binding Subject, Mode=TwoWay}" />
+                            <DataGridTextColumn Header="Оценка" Binding="{Binding Grade, Mode=TwoWay}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Расписание">
+                <TextBlock Text="Расписание занятий"
+                           FontSize="24"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>
