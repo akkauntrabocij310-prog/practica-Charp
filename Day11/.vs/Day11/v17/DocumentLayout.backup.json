@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticC#\\Day11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\texteditorcommand.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\texteditorcommand.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\editorinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\editorinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\z3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\z3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\redocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\redocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\undocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\undocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\typecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\typecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\pastecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\pastecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\copycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\copycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|d:\\practicc#\\day11\\z3\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A71F19C-C8B2-41D4-91D1-638AED1ECAF3}|z3\\z3.csproj|solutionrelative:z3\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\z2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\z2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\weapondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\weapondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\iceenhancementdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\iceenhancementdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\fireenhancementdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\fireenhancementdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\criticalhitdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\criticalhitdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\basicweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\basicweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|d:\\practicc#\\day11\\z2\\weapondecorator.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7140EF94-BE62-4364-8C89-CA2D685E3602}|z2\\z2.csproj|solutionrelative:z2\\weapondecorator.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\warriorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\warriorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\archerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\archerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\magefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\magefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\z1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\z1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|d:\\practicc#\\day11\\z1\\gamefactory.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6545E8B2-3CAA-4C33-AA7B-66E8FD34A68D}|z1\\z1.csproj|solutionrelative:z1\\gamefactory.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "z3",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\z3.csproj",
+              "RelativeDocumentMoniker": "z3\\z3.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\z3.csproj*",
+              "RelativeToolTip": "z3\\z3.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T14:54:42.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextEditorCommand.csproj",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\TextEditorCommand.csproj",
+              "RelativeDocumentMoniker": "z3\\TextEditorCommand.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\TextEditorCommand.csproj*",
+              "RelativeToolTip": "z3\\TextEditorCommand.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T14:57:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\Program.cs",
+              "RelativeDocumentMoniker": "z3\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\Program.cs",
+              "RelativeToolTip": "z3\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:57:18.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditorInvoker.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\EditorInvoker.cs",
+              "RelativeDocumentMoniker": "z3\\EditorInvoker.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\EditorInvoker.cs",
+              "RelativeToolTip": "z3\\EditorInvoker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:56:58.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommandHistory.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\CommandHistory.cs",
+              "RelativeDocumentMoniker": "z3\\CommandHistory.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\CommandHistory.cs",
+              "RelativeToolTip": "z3\\CommandHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:56:32.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedoCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\RedoCommand.cs",
+              "RelativeDocumentMoniker": "z3\\RedoCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\RedoCommand.cs",
+              "RelativeToolTip": "z3\\RedoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:56:18.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UndoCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\UndoCommand.cs",
+              "RelativeDocumentMoniker": "z3\\UndoCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\UndoCommand.cs",
+              "RelativeToolTip": "z3\\UndoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:56:00.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "z3\\DeleteCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\DeleteCommand.cs",
+              "RelativeToolTip": "z3\\DeleteCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:55:45.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TypeCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\TypeCommand.cs",
+              "RelativeDocumentMoniker": "z3\\TypeCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\TypeCommand.cs",
+              "RelativeToolTip": "z3\\TypeCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:55:29.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PasteCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\PasteCommand.cs",
+              "RelativeDocumentMoniker": "z3\\PasteCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\PasteCommand.cs",
+              "RelativeToolTip": "z3\\PasteCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:55:14.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CopyCommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\CopyCommand.cs",
+              "RelativeDocumentMoniker": "z3\\CopyCommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\CopyCommand.cs",
+              "RelativeToolTip": "z3\\CopyCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:54:53.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TextEditor.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\TextEditor.cs",
+              "RelativeDocumentMoniker": "z3\\TextEditor.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\TextEditor.cs",
+              "RelativeToolTip": "z3\\TextEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:54:01.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z3\\ICommand.cs",
+              "RelativeDocumentMoniker": "z3\\ICommand.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z3\\ICommand.cs",
+              "RelativeToolTip": "z3\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:35:16.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "z2",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\z2.csproj",
+              "RelativeDocumentMoniker": "z2\\z2.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\z2.csproj",
+              "RelativeToolTip": "z2\\z2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:31:29.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WeaponDecorator.csproj",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\WeaponDecorator.csproj",
+              "RelativeDocumentMoniker": "z2\\WeaponDecorator.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\WeaponDecorator.csproj",
+              "RelativeToolTip": "z2\\WeaponDecorator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:33:47.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\Program.cs",
+              "RelativeDocumentMoniker": "z2\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\Program.cs",
+              "RelativeToolTip": "z2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:31:50.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CriticalHitDecorator.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\CriticalHitDecorator.cs",
+              "RelativeDocumentMoniker": "z2\\CriticalHitDecorator.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\CriticalHitDecorator.cs",
+              "RelativeToolTip": "z2\\CriticalHitDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:31:35.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IceEnhancementDecorator.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\IceEnhancementDecorator.cs",
+              "RelativeDocumentMoniker": "z2\\IceEnhancementDecorator.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\IceEnhancementDecorator.cs",
+              "RelativeToolTip": "z2\\IceEnhancementDecorator.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:31:18.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FireEnhancementDecorator.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\FireEnhancementDecorator.cs",
+              "RelativeDocumentMoniker": "z2\\FireEnhancementDecorator.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\FireEnhancementDecorator.cs",
+              "RelativeToolTip": "z2\\FireEnhancementDecorator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:30:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeaponDecorator.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\WeaponDecorator.cs",
+              "RelativeDocumentMoniker": "z2\\WeaponDecorator.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\WeaponDecorator.cs",
+              "RelativeToolTip": "z2\\WeaponDecorator.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:30:37.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BasicWeapon.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\BasicWeapon.cs",
+              "RelativeDocumentMoniker": "z2\\BasicWeapon.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\BasicWeapon.cs",
+              "RelativeToolTip": "z2\\BasicWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:30:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IWeapon.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z2\\IWeapon.cs",
+              "RelativeDocumentMoniker": "z2\\IWeapon.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z2\\IWeapon.cs",
+              "RelativeToolTip": "z2\\IWeapon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:23:23.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "z1",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\z1.csproj",
+              "RelativeDocumentMoniker": "z1\\z1.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\z1.csproj",
+              "RelativeToolTip": "z1\\z1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:18:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GameFactory.csproj",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\GameFactory.csproj",
+              "RelativeDocumentMoniker": "z1\\GameFactory.csproj",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\GameFactory.csproj",
+              "RelativeToolTip": "z1\\GameFactory.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T10:20:20.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\Program.cs",
+              "RelativeDocumentMoniker": "z1\\Program.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\Program.cs",
+              "RelativeToolTip": "z1\\Program.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAA9wFgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:20:04.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ArcherFactory.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\ArcherFactory.cs",
+              "RelativeDocumentMoniker": "z1\\ArcherFactory.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\ArcherFactory.cs",
+              "RelativeToolTip": "z1\\ArcherFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:19:48.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WarriorFactory.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\WarriorFactory.cs",
+              "RelativeDocumentMoniker": "z1\\WarriorFactory.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\WarriorFactory.cs",
+              "RelativeToolTip": "z1\\WarriorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:19:32.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MageFactory.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\MageFactory.cs",
+              "RelativeDocumentMoniker": "z1\\MageFactory.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\MageFactory.cs",
+              "RelativeToolTip": "z1\\MageFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:19:19.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CharacterFactory.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\CharacterFactory.cs",
+              "RelativeDocumentMoniker": "z1\\CharacterFactory.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\CharacterFactory.cs",
+              "RelativeToolTip": "z1\\CharacterFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:19:03.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Archer.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\Archer.cs",
+              "RelativeDocumentMoniker": "z1\\Archer.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\Archer.cs",
+              "RelativeToolTip": "z1\\Archer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:18:47.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\Warrior.cs",
+              "RelativeDocumentMoniker": "z1\\Warrior.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\Warrior.cs",
+              "RelativeToolTip": "z1\\Warrior.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:18:27.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\Mage.cs",
+              "RelativeDocumentMoniker": "z1\\Mage.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\Mage.cs",
+              "RelativeToolTip": "z1\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:18:08.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICharacter.cs",
+              "DocumentMoniker": "D:\\PracticC#\\Day11\\z1\\ICharacter.cs",
+              "RelativeDocumentMoniker": "z1\\ICharacter.cs",
+              "ToolTip": "D:\\PracticC#\\Day11\\z1\\ICharacter.cs",
+              "RelativeToolTip": "z1\\ICharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:16:32.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
