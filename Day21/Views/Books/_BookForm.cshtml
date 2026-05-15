@@ -1,0 +1,35 @@
+@model BookViewModel
+
+<div class="mb-3">
+    <label asp-for="Title" class="form-label"></label>
+    <input asp-for="Title" class="form-control" placeholder="Название книги" />
+    <span asp-validation-for="Title" class="text-danger small"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="Author" class="form-label"></label>
+    <input asp-for="Author" class="form-control" placeholder="Фамилия И.О." />
+    <span asp-validation-for="Author" class="text-danger small"></span>
+</div>
+<div class="row">
+    <div class="col-md-8 mb-3">
+        <label asp-for="ISBN" class="form-label"></label>
+        <input asp-for="ISBN" class="form-control" placeholder="978-5-389-00001-7" />
+        <span asp-validation-for="ISBN" class="text-danger small"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Year" class="form-label"></label>
+        <input asp-for="Year" class="form-control" type="number" />
+        <span asp-validation-for="Year" class="text-danger small"></span>
+    </div>
+</div>
+<div class="mb-3">
+    <label asp-for="Genre" class="form-label"></label>
+    <select asp-for="Genre" class="form-select">
+        <option value="">— выберите жанр —</option>
+        @foreach (var g in new[] { "Роман", "Роман-эпопея", "Повесть", "Рассказ", "Детектив", "Фантастика", "Поэзия", "Биография", "Документальная" })
+        {
+            <option value="@g">@g</option>
+        }
+    </select>
+    <span asp-validation-for="Genre" class="text-danger small"></span>
+</div>

@@ -1,0 +1,34 @@
+@model Book
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <i class="bi bi-book me-2"></i>@Model.Title
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4">Автор</dt>
+                    <dd class="col-sm-8">@Model.Author</dd>
+                    <dt class="col-sm-4">Жанр</dt>
+                    <dd class="col-sm-8"><span class="badge bg-secondary">@Model.Genre</span></dd>
+                    <dt class="col-sm-4">Год</dt>
+                    <dd class="col-sm-8">@Model.Year</dd>
+                    <dt class="col-sm-4">ISBN</dt>
+                    <dd class="col-sm-8"><code>@Model.ISBN</code></dd>
+                </dl>
+            </div>
+            <div class="card-footer d-flex gap-2">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-sm">
+                    <i class="bi bi-pencil me-1"></i>Редактировать
+                </a>
+                <a asp-action="Index" class="btn btn-outline-secondary btn-sm ms-auto">
+                    <i class="bi bi-arrow-left me-1"></i>Назад
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

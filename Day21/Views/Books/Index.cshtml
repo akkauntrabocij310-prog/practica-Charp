@@ -1,0 +1,61 @@
+@model List<Book>
+@{
+    ViewData["Title"] = "Библиотека книг";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2><i class="bi bi-journals me-2"></i>Библиотека книг</h2>
+    <a asp-action="Create" class="btn btn-dark">
+        <i class="bi bi-plus-lg me-1"></i>Добавить книгу
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Книг пока нет. <a asp-action="Create">Добавьте первую!</a></div>
+}
+else
+{
+    <div class="card shadow-sm">
+        <div class="card-header">Всего книг: @Model.Count</div>
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Название</th>
+                        <th>Автор</th>
+                        <th>Жанр</th>
+                        <th>Год</th>
+                        <th>ISBN</th>
+                        <th class="text-center">Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var book in Model)
+                    {
+                        <tr>
+                            <td class="text-muted">@book.Id</td>
+                            <td><strong>@book.Title</strong></td>
+                            <td>@book.Author</td>
+                            <td><span class="badge bg-secondary">@book.Genre</span></td>
+                            <td>@book.Year</td>
+                            <td><small class="text-muted">@book.ISBN</small></td>
+                            <td class="text-center">
+                                <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-sm btn-outline-info" title="Подробнее">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                                <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-outline-warning ms-1" title="Редактировать">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-sm btn-outline-danger ms-1" title="Удалить">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
